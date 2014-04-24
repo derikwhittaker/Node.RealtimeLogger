@@ -1,0 +1,16 @@
+{
+  "name": "Node.RealtimeLogger",
+  "version": "0.0.0",
+  "description": "Node.RealtimeLogger",
+  "main": "server.js",
+  "author": {
+    "name": "Derik",
+    "email": ""
+  },
+  "devDependencies": {
+    "express": "^3.5.1",
+    "socket.io": "^0.9.16",
+    "node-memory-cache": "0.0.5",
+    "ejs": "^1.0.0"
+  }
+}

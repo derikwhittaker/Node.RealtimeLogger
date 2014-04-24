@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="realtimeLoggerApp">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-controller="availableSessionsController">
+    
+    <div ng-repeat="session in sessions">
+        {{session}}
+    </div>
+
+
+    <script src="../src/angular/angular.js"></script>
+    <script src="app/app.js"></script>
+    <script src="ctrl/availableSessionsController.js"></script>
+</body>
+</html>
